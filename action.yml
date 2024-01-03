@@ -1,4 +1,4 @@
-name: "Get latest release of repository"
+name: "@manim-finance/get-latest-release"
 
 description: "Get latest release including draft and prerelease. Return information about release"
 inputs:
