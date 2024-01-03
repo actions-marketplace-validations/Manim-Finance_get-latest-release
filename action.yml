@@ -14,26 +14,28 @@ inputs:
     default: 100
 outputs:
   id:
-    description: 'Id of the release'
+    description: "Id of the release"
   name:
-    description: 'Name of the release'
+    description: "Name of the release"
   tag_name:
-    description: 'Tag of the release'
+    description: "Tag of the release"
   created_at:
-    description: 'Creation date of the release'
+    description: "Creation date of the release"
   draft:
-    description: 'Release is draft'
+    description: "Release is draft"
   prerelease:
-    description: 'Release is prerelease'
+    description: "Release is prerelease"
   release:
-    description: 'Release is production release'
+    description: "Release is production release"
   url:
-    description: 'API URL to release'
+    description: "API URL to release"
   html_url:
-    description: 'HTML URL to release'  
+    description: "HTML URL to release"
+  body:
+    description: "Body to release"
 runs:
   using: "node16"
   main: "dist/index.js"
 branding:
-  icon: 'tag'
-  color: 'purple'
+  icon: "tag"
+  color: "purple"
